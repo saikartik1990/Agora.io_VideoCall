@@ -8,7 +8,6 @@ import '@/assets/global.scss';
 import './index.scss';
 import { RESOLUTION_ARR } from '@/utils/Settings';
 // eslint-disable-next-line
-import Polyfill from '@/utils/Polyfill';
 import Validator from '@/utils/Validate';
 
 const getParameterByName = (name, url) => {

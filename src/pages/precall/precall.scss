@@ -184,6 +184,8 @@
 
   .progress {
     flex-grow: 1;
+    position: absolute;
+    bottom: 0;
   }
 
   #videoDevice, #audioDevice, .ag-connect-test {

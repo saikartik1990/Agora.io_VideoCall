@@ -8,8 +8,8 @@ const notificationInit = () => {
   let container = `<div class="notification-container" 
                     style="z-index: 12;position: absolute;
                     width: 38.2%;max-width: 450px; 
-                    min-width: 300px;left: 0;
-                    bottom: 0;"></div>`;
+                    min-width: 300px;right: 0;
+                    top: 0;"></div>`;
   $('body').append(container);
 };
 

@@ -4,7 +4,6 @@ import 'bulma-switch/dist/bulma-switch.min.css';
 import * as Cookies from 'js-cookie';
 import '@/assets/css/icons.css';
 // eslint-disable-next-line
-import Polyfill from '@/utils/Polyfill';
 import { isSafari } from '../../utils/BrowserCheck';
 import { RESOLUTION_ARR, APP_ID } from '@/utils/Settings';
 import '@/assets/global.scss';
@@ -16,7 +15,7 @@ let client;
 let receiver;
 let key;
 let _testChannel = String(
-  Number.parseInt(new Date().getTime(), 10) + Math.floor(Math.random() * 1000)
+  parseInt(new Date().getTime(), 10) + Math.floor(Math.random() * 1000)
 );
 
 // Init ui

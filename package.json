@@ -19,11 +19,15 @@
     "not ie <= 8"
   ],
   "dependencies": {
+    "bootstrap-material-design": "4.1.1",
     "bulma": "^0.6.1",
     "bulma-checkradio": "^0.1.11",
     "bulma-switch": "^0.1.12",
-    "jquery": "^3.2.1",
-    "js-cookie": "^2.2.0"
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "js-cookie": "^2.2.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.6",
